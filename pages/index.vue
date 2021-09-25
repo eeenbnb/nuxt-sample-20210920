@@ -14,5 +14,9 @@
         <p>no outer item</p>
       </CommonBoxItem>
     </CommonListChildItem>
+
+    <CommonListChildItem>
+      <FormTestItem />
+    </CommonListChildItem>
   </CommonListPearentItem>
 </template>

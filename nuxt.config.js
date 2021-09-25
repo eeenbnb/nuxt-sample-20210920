@@ -38,6 +38,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/composition-api/module',
+    'nuxt-typed-vuex'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,5 +52,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel: {
+      presets: ['@nuxt/babel-preset-app', 'vca-jsx'],
+    },
   }
 }
